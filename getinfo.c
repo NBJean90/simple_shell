@@ -6,7 +6,7 @@
  */
 void clear_info(info_t *info)
 {
-	nfo->arg = NULL;
+	info->arg = NULL;
 	info->argv = NULL;
 	info->path = NULL;
 	info->argc = 0;
